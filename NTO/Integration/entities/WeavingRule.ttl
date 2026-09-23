@@ -35,12 +35,13 @@ ogit.Integration:WeavingRule
 		ogit.Integration:matchCriteria
 		ogit.Integration:celPredicate
 		ogit.Integration:scheduleCron
+		ogit:content
+		ogit:mimeType
 	);
 	ogit:indexed-attributes (
 		ogit.Integration:weaverId
 		ogit.Integration:edgeType
 	);
 	ogit:allowed (
-		[ ogit.Integration:declaredBy ogit.Integration:Connector ]
 	);
 .
